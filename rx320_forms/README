@@ -1,0 +1,2 @@
+These are the intitial forms that are served as web pages. They call the various CGI scripts when submitted.
+They should be placed somewhere in the htdocs section or your web server.
