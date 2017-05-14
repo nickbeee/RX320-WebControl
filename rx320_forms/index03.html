@@ -1,0 +1,112 @@
+<html>
+	<head>
+		<title>RX-320D Control Panel</title>
+		<style type="text/css">
+			body {background: #ccffcc;
+				font-family: arial, helvetica, sans-serif}
+			TD {font-align: middle;}
+		</style>
+	</head>
+	<body>
+		<h2>RX-320 Tuner</h2>
+		<table border="1" cellspacing="0" cellpadding="10">
+			<tr><td colspan="2">
+			<form name="frequency" action="index03.html" method="get">
+			     	FREQUENCY: </td>
+			<td colspan="2">
+				<input type="text" name="frequency" size="9" maxlength="9" value="675.0"></td>
+			<td><input type="submit" value="kHz"></td></tr>
+		</form>
+
+		<!-- put modeset in a table for positioning -->
+		<tr><td>MODE:</td><td>
+			<form name="amset" action="index03.html" method="get">
+			<input type="hidden" name="mode" value="0">
+			<input type="submit" value="AM">
+		</form>
+		</td><td>
+		<form name="usbset" action="index03.html" method="get">
+			<input type="hidden" name="mode" value="1">
+			<input type="submit" value="USB">
+		</form>
+		</td><td>
+		<form name="lsbset" action="index03.html" method="get">
+			<input type="hidden" name="mode" value="2">
+			<input type="submit" value="LSB">
+		</form>
+		</td><td>
+		<form name="cwset" action="index03.html" method="get">
+			<input type="hidden" name="mode" value="3">
+			<input type="submit" value="CW">
+		</form>
+	</td></tr>	
+	<tr><td colspan="2"><form name="bandwidth" action="index03.html" method="get">
+			BANDWIDTH:</td>
+		<td><select name="filter">
+				<option value="33">8000
+				<option value="0" selected="selected">6000
+				<option value="1">5700
+				<option value="2">5400
+				<option value="3">5100
+				<option value="4">4800
+				<option value="5">4500
+				<option value="6">4200
+				<option value="7">3900
+				<option value="8">3600
+				<option value="9">3300
+				<option value="10">3000
+				<option value="11">2850
+				<option value="12">2700
+				<option value="13">2550
+				<option value="14">2400
+				<option value="15">2250
+				<option value="16">2100
+				<option value="17">1950
+				<option value="18">1800
+				<option value="19">1650
+				<option value="20">1500
+				<option value="21">1350
+				<option value="22">1200
+				<option value="23">1050
+				<option value="24">900
+				<option value="25">750
+				<option value="26">675
+				<option value="27">600
+				<option value="28">525
+				<option value="29">450
+				<option value="30">375
+				<option value="31">330
+				<option value="32">300
+		</select></td>
+		<td><input type="submit" value=" Hz "></td>
+		<td>&nbsp;</td></tr></form>
+<tr><td colspan="2"><form name="agc" action="index03.html" method="get">AGC:</td>
+		<td><select name="agc">
+				<option value="1">SLOW
+				<option value="2">MEDIUM
+				<option value="3">FAST
+		</select></td>
+		<td><input type="submit" value="SET"></td>
+	<td>&nbsp;</td></tr>
+
+		</form>
+		
+		<tr><td colspan="2"><form name="bfo" action="index03.html" method="get">
+					CW Pitch:</td>
+				<td><select name="bfo">
+				<option value="650">650
+				<option value="700">700
+				<option value="750">750
+				<option value="8000">800
+
+		</select></td>
+		<td><input type="submit" value=" Hz "></td>
+	<td>&nbsp;</td></tr>
+
+		</form>
+</table>
+		<!-- end of modeset form -->
+
+		<p>Well, here we are re-inventing the wheel again...
+			</body>
+</html>

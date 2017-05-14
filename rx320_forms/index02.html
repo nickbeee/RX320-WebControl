@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+   <html>
+	   <head>
+		<title>RX-320D Control Panel</title>
+		<style type="text/css">
+			body {background: #ccffcc;
+				font-family: arial, helvetica, sans-serif}
+			.panel {
+				background: #ccccff;
+				font-family: sans-serif;
+				font-weight: bold;
+				padding: 20px;
+				margin-left: 150px;
+				width: 280px;
+				border: 5px double #999999 ;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<h2>RX-320 Tuner</h2>
+		<div class="panel">
+		<form name="frequency" action="index02.html" method="get">
+			<p> FREQUENCY: 
+			<input type="text" name="frequency" size="9" maxlength="9" value="675.0">
+			<input type="submit" value="kHz">
+		</form>
+		<br>
+		<!-- put modeset in a table for positioning -->
+		<table border="0" cellspacing="0" cellpadding="5"><tr><td>
+			<form name="amset" action="index02.html" method="get">
+				<p><input type="hidden" name="mode" value="0">
+			<input type="submit" value="AM">
+		</form>
+		</td><td>
+		<form name="usbset" action="index02.html" method="get">
+			<p>	<input type="hidden" name="mode" value="1">
+			<input type="submit" value="USB">
+		</form>
+		</td><td>
+		<form name="lsbset" action="index02.html" method="get">
+			<p><input type="hidden" name="mode" value="2">
+			<input type="submit" value="LSB">
+		</form>
+		</td><td>
+		<form name="cwset" action="index02.html" method="get">
+			<p><input type="hidden" name="mode" value="3">
+			<input type="submit" value="CW">
+		</form>
+</td></tr></table>
+		<!-- end of modeset form -->
+		<form name="bandwidth" action="index02.html" method="get">
+			<p>
+			BANDWIDTH:
+			<select name="filter">
+				<option value="33">8000
+				<option value="0" selected="selected">6000
+				<option value="1">5700
+				<option value="2">5400
+				<option value="3">5100
+				<option value="4">4800
+				<option value="5">4500
+				<option value="6">4200
+				<option value="7">3900
+				<option value="8">3600
+				<option value="9">3300
+				<option value="10">3000
+				<option value="11">2850
+				<option value="12">2700
+				<option value="13">2550
+				<option value="14">2400
+				<option value="15">2250
+				<option value="16">2100
+				<option value="17">1950
+				<option value="18">1800
+				<option value="19">1650
+				<option value="20">1500
+				<option value="21">1350
+				<option value="22">1200
+				<option value="23">1050
+				<option value="24">900
+				<option value="25">750
+				<option value="26">675
+				<option value="27">600
+				<option value="28">525
+				<option value="29">450
+				<option value="30">375
+				<option value="31">330
+				<option value="32">300
+			</select>
+			<input type="submit" value=" Hz ">
+		</form>
+		<form name="agc" action="index02.html" method="get">
+			<p>
+			AGC:
+			<select name="agc">
+				<option value="1">SLOW
+				<option value="2">MEDIUM
+				<option value="3">FAST
+			</select>
+			<input type="submit" value="SET">
+
+		</form>
+		<form name="bfo" action="index02.html" method="get">
+			<p>
+			CW Pitch:
+			<select name="bfo">
+				<option value="650">650
+				<option value="700">700
+				<option value="750">750
+				<option value="8000">800
+
+			</select>
+			<input type="submit" value=" Hz ">
+
+		</form>
+	</div>
+
+		<p>Well, here we are re-inventing the wheel again...
+			</body>
+</html>

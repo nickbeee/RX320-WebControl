@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+      <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+		<title>RX-320D Control Panel</title>
+		<style type="text/css">
+			body {background: #ccffcc;
+				font-family: arial, helvetica, sans-serif}
+			.panel {
+				background: #ccccff;
+				font-family: sans-serif;
+				font-weight: bold;
+				padding: 20px;
+				margin-left: 150px;
+				width: 280px;
+				border: 5px double #999999 ;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<h2>RX-320 Tuner</h2>
+		<div class="panel">
+			<form action="index02a.html" method="get">
+				<p> FREQUENCY: 
+			<input type="text" name="frequency" size="9" maxlength="9" value="675.0"/>
+			<input type="submit" value="kHz"/></p>
+		</form>
+		<br/>
+		<!-- put modeset in a table for positioning -->
+		<table border="0" cellspacing="0" cellpadding="5"><tr><td>
+			<form action="index02a.html" method="get">
+				<p><input type="hidden" name="mode" value="0"/>
+				<input type="submit" value="AM"/></p>
+		</form>
+		</td><td>
+		<form action="index02a.html" method="get">
+			<p>	<input type="hidden" name="mode" value="1"/>
+			<input type="submit" value="USB"/></p>
+		</form>
+		</td><td>
+		<form action="index02a.html" method="get">
+			<p><input type="hidden" name="mode" value="2"/>
+			<input type="submit" value="LSB"/></p>
+		</form>
+		</td><td>
+		<form action="index02a.html" method="get">
+			<p><input type="hidden" name="mode" value="3"/>
+			<input type="submit" value="CW"/></p>
+		</form>
+</td></tr></table>
+		<!-- end of modeset form -->
+		<form action="index02a.html" method="get">
+			<p>
+			BANDWIDTH:
+			<select name="filter">
+				<option value="33">8000</option>
+				<option value="0" selected="selected">6000</option>
+				<option value="1">5700</option>
+				<option value="2">5400</option>
+				<option value="3">5100</option>
+				<option value="4">4800</option>
+				<option value="5">4500</option>
+				<option value="6">4200</option>
+				<option value="7">3900</option>
+				<option value="8">3600</option>
+				<option value="9">3300</option>
+				<option value="10">3000</option>
+				<option value="11">2850</option>
+				<option value="12">2700</option>
+				<option value="13">2550</option>
+				<option value="14">2400</option>
+				<option value="15">2250</option>
+				<option value="16">2100</option>
+				<option value="17">1950</option>
+				<option value="18">1800</option>
+				<option value="19">1650</option>
+				<option value="20">1500</option>
+				<option value="21">1350</option>
+				<option value="22">1200</option>
+				<option value="23">1050</option>
+				<option value="24">900</option>
+				<option value="25">750</option>
+				<option value="26">675</option>
+				<option value="27">600</option>
+				<option value="28">525</option>
+				<option value="29">450</option>
+				<option value="30">375</option>
+				<option value="31">330</option>
+				<option value="32">300</option>
+			</select>
+			<input type="submit" value=" Hz "/>
+			</p>
+		</form>
+		<form action="index02a.html" method="get">
+			<p>
+			AGC:
+			<select name="agc">
+				<option value="1">SLOW</option>
+				<option value="2">MEDIUM</option>
+				<option value="3">FAST</option>
+			</select>
+			<input type="submit" value="SET"/>
+			</p>
+		</form>
+		<form action="index02a.html" method="get">
+			<p>
+			CW Pitch:
+			<select name="bfo">
+				<option value="650">650</option>
+				<option value="700">700</option>
+				<option value="750">750</option>
+				<option value="8000">800</option>
+			</select>
+			<input type="submit" value=" Hz "/>
+			</p>
+		</form>
+	</div>
+
+	<p>Well, here we are re-inventing the wheel again...</p>
+<p>
+    <a href="http://validator.w3.org/check?uri=referer"><img
+        src="http://www.w3.org/Icons/valid-xhtml10"
+        alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+  </p>
+
+			</body>
+</html>

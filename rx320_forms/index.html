@@ -1,0 +1,71 @@
+<html>
+	<head>
+		<title>RX-320D Control Panel</title>
+		<style type="text/css">
+			body {background: #ccffcc;
+				font-family: arial, helvetica, sans-serif}
+		</style>
+	</head>
+	<body>
+		<form name="input" action="index.html" method="get">
+			<br/>
+			MODE:
+			<select name="mode">
+				<option value="0">AM
+				<option value="1">USB
+				<option value="2">LSB
+				<option value="3">CW
+			</select>
+			<br/><br/>
+			BANDWIDTH:
+			<select name="filter">
+				<option value="33">8000
+				<option value="0">6000
+				<option value="1">5700
+				<option value="2">5400
+				<option value="3">5100
+				<option value="4">4800
+				<option value="5">4500
+				<option value="6">4200
+				<option value="7">3900
+				<option value="8">3600
+				<option value="9">3300
+				<option value="10">3000
+				<option value="11">2850
+				<option value="12">2700
+				<option value="13">2550
+				<option value="14">2400
+				<option value="15">2250
+				<option value="16">2100
+				<option value="17">1950
+				<option value="18">1800
+				<option value="19">1650
+				<option value="20">1500
+				<option value="21">1350
+				<option value="22">1200
+				<option value="23">1050
+				<option value="24">900
+				<option value="25">750
+				<option value="26">675
+				<option value="27">600
+				<option value="28">525
+				<option value="29">450
+				<option value="30">375
+				<option value="31">330
+				<option value="32">300
+			</select>
+			<br/><br/>
+			AGC:
+			<select name="agc">
+				<option value="1">SLOW
+				<option value="2">MEDIUM
+				<option value="3">FAST
+			</select>
+			<br/><br/>
+			FREQUENCY: 
+			<input type="text" name="frequency" size="9" maxlength="9" value="675.0">&nbsp;kHz
+			<br/><br/>
+			<input type="submit" value="TUNE">&nbsp;<input type="reset">
+		</form>
+	</body>
+</html>
