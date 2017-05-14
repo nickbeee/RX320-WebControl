@@ -1,0 +1,67 @@
+It almost works!
+hello world
+yes yes
+yes yes
+yes yes
+line 1
+line 2
+new form
+and again!
+more
+May I tune?
+The DX is hot and I'm typing a long line taht will overflow that is rather exiting????????????????????????????????
+each new line is indented
+127.0.0.1: Here I am
+127.0.0.1: //me too <hr>
+127.0.0.1: Internet exploder alert\n\n
+127.0.0.1: anotehr internet exploder
+127.0.0.1: Another version127.0.0.1: GEts rid of extra NL127.0.0.1: try splicing the array127.0.0.1: not
+127.0.0.1: next message
+127.0.0.1: next
+127.0.0.1: tail the file!
+127.0.0.1: last 8
+127.0.0.1: last 8 syntax corrected
+127.0.0.1: last 9 anybody
+127.0.0.1: back again
+127.0.0.1: aaa
+127.0.0.1: Now we're cooking!
+127.0.0.1: last 10 (-8)
+127.0.0.1: looooooooooooooooooooooooooooong line word wrapped..............................................
+127.0.0.1:  
+127.0.0.1: .
+Sat May 12 20:07:57 2007 127.0.0.1: logtime here
+Sat May 12 20:08:27 2007 127.0.0.1: last message
+Sat May 12 20:08:44 2007 127.0.0.1: wrap around for a long message..................................
+20:10 127.0.0.1: short time
+20:11 127.0.0.1: shor time---again
+20:12 127.0.0.1: .
+20:13 127.0.0.1: I can leave a long message
+20:16 127.0.0.1: may I tune to the VOLMET?
+20:21 127.0.0.1: No you may not!
+20:21 192.168.0.2: new IP address
+20:23 192.168.0.3: from a remote PC
+20:31 192.168.0.2: and another ip address
+20:31 192.168.4.101: second time lucky
+20:32 192.168.4.101: :-)
+15:41 127.0.0.1: test
+15:41 127.0.0.1: local test
+15:42 127.0.0.1: another test
+18:20 0.0.0.0: 5450 USB 2400 0
+18:22 0.0.0.0: 5450 USB 6000 SLOW 0
+18:24 0.0.0.0: chat test
+18:24 192.168.0.2: test
+18:25 192.168.0.2: 5450 USB 6000 SLOW 0
+18:36 192.168.0.2: new chat ip test
+18:37 0.0.0.0: port 8080
+18:37 127.0.0.1: localhost
+18:39 127.0.0.1: test
+18:40 0.0.0.0: test...
+18:40 0.0.0.0: 1930 LSB 2400 SLOW -100
+18:40 127.0.0.1: 1930 LSB 2400 SLOW -100
+18:41 127.0.0.1: chat message
+18:43 127.0.0.1: 1930 LSB 2400 SLOW -100
+18:43 127.0.0.1: 1930 LSB 8000 SLOW -100
+19:12 127.0.0.1: 1930 LSB 8000 SLOW -100
+19:42 127.0.0.1: 198 AM 6000 MEDIUM 0
+19:42 127.0.0.1: 5000 AM 6000 MEDIUM 0
+19:42 127.0.0.1: 6000 AM 6000 MEDIUM 0

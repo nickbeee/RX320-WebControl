@@ -1,0 +1,81 @@
+body {
+	background: #ccffcc;
+	font-family: arial, helvetica, sans-serif;
+	margin-left: 50px;
+	margin-right: 50px;
+	}
+#top {
+position: relative;
+}
+#bottom {
+position: relative;
+}
+#forms {
+ 
+  position: relative;
+  top: 0px;
+  width: 1000px;
+  height: 1200px;
+}	
+
+#panel {
+
+  position: absolute;
+  left: 0px;
+  /*
+  top: 10px;
+*/
+  background: #ccccff;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding: 20px;
+	margin-left: 0px;
+	width: 280px;
+	border: 5px double #999999 ;
+}
+#memory {
+
+  
+  position: absolute;
+  top: 400px;
+  
+  background: #ffffcc;
+	font-family: sans-serif;
+	padding: 20px;
+
+	margin-left: 0px;
+  margin-top: 50px;
+
+  width: 700px;
+  /*
+  position: absolute;
+	top: 0px;
+	left: 400px;
+  */
+  border: 5px double #999999 ;
+}
+#row1 {
+	background: #ffffff;
+	font-family: monospace;
+}
+#row2 {
+	background: #eeeeee;
+	font-family: monospace;
+}
+
+#chat {
+  position: absolute;
+  left: 350px;
+  background: #ccffff;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding: 20px;
+	margin-left: 0px;
+	margin-top: 0px;
+	width: 500px;
+	border: 5px double #999999 ;
+}
+/*
+ see http://www.barelyfitz.com/screencast/html-training/css/positioning/
+*/
+/* Firefox treats // as a commented line, however IE ignores it! */
