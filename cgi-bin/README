@@ -1,0 +1,2 @@
+These files should be installed in the appropriate cgi-bin directory on your webserver.
+Ensure the .pl files are executable on a Linux or *nix system.
